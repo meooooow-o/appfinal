@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity5">
 
+    <ScrollView
+        android:id="@+id/navigation_rail_container"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </ScrollView>
+
     <ImageView
         android:id="@+id/img_backKnow"
         android:layout_width="552dp"
