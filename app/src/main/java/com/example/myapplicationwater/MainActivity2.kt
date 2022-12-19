@@ -16,7 +16,7 @@ class MainActivity2 : AppCompatActivity() {
         }
 
         findViewById<Button>(R.id.btn_remind).setOnClickListener {
-            val intent = Intent(this, MainActivity4::class.java)
+            val intent = Intent(this, MainActivity6::class.java)
             startActivityForResult(intent, 4)
         }
 

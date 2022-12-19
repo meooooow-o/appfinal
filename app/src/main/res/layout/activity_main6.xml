@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6">
+
+    <ImageView
+        android:id="@+id/img_backSetRemind"
+        android:layout_width="553dp"
+        android:layout_height="732dp"
+        android:background="@drawable/setremind"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.503"
+        app:srcCompat="@drawable/setremind" />
+
+    <Button
+        android:id="@+id/btn_back4"
+        android:layout_width="63dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="60dp"
+        android:text="返回"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_setmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="225dp"
+        android:text="設定每隔幾分鐘提醒林水："
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ed_min"
+        android:layout_width="104dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="請輸入分鐘"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_setmin"
+        app:layout_constraintStart_toEndOf="@+id/tv_setmin"
+        app:layout_constraintTop_toTopOf="@+id/tv_setmin" />
+
+    <TextView
+        android:id="@+id/tv_min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分鐘"
+        app:layout_constraintBottom_toBottomOf="@+id/ed_min"
+        app:layout_constraintStart_toEndOf="@+id/ed_min"
+        app:layout_constraintTop_toTopOf="@+id/ed_min" />
+
+    <Button
+        android:id="@+id/btn_set"
+        android:layout_width="63dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:text="設定"
+        app:layout_constraintStart_toEndOf="@+id/tv_min"
+        app:layout_constraintTop_toBottomOf="@+id/tv_min" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

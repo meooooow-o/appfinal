@@ -6,15 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity5">
 
-    <ScrollView
-        android:id="@+id/navigation_rail_container"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-    </ScrollView>
-
     <ImageView
         android:id="@+id/img_backKnow"
         android:layout_width="552dp"
@@ -25,18 +16,8 @@
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.376"
         app:srcCompat="@drawable/know" />
-
-    <Button
-        android:id="@+id/btn_back2"
-        android:layout_width="63dp"
-        android:layout_height="39dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginBottom="100dp"
-        android:text="返回"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView"
@@ -47,4 +28,15 @@
         android:text="林水小知識"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_back3"
+        android:layout_width="63dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="60dp"
+        android:text="返回"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
