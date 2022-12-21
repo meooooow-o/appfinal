@@ -16,16 +16,17 @@
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.376"
+        app:layout_constraintVertical_bias="0.371"
         app:srcCompat="@drawable/know" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="73dp"
+        android:layout_height="19dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="250dp"
         android:text="林水小知識"
+        android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -39,4 +40,14 @@
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_showartical"
+        android:layout_width="338dp"
+        android:layout_height="277dp"
+        android:layout_marginTop="24dp"
+        android:text="市面上充斥著各種各樣的食用水，以下各種關於水的知識，你都知道嗎？\n\n純淨水\n純淨水是經過科技除去水中如細菌、污染物、礦物質的水，市場上出售的蒸餾水、逆滲透水等都屬於純淨水。\n\n硬水和軟水\n籠統來說，水的硬軟度取決於礦物質含量，尤其是鈣和鎂，其含量越高，水就越硬，礦物質越低，水的口感就越柔和。\n\n哪種水好些，還是備受爭議，尚未有結論，但有大型研究發現，水的硬度與心管疾病死亡率有關，指出水的硬度高，死亡率低，但假如在這方面有疑問，最好還是請教醫生。"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
